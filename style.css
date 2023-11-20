@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+:root{
+  --background:#128C7E;
+  --background-alt:#005191;
+  --buttons:#ff6900;
+  --hover:#007991;
+  --text: white;
+}
+header{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  border-radius: 0 0 150px 0;
+}
+header .logo img{
+  height: 70px;
+}
+.header-content{
+  padding: 10px 60px;
+}
+.nav-links{
+  display: flex !important;
+}
+.nav-links ul{
+  position: absolute;
+  top: 60px;
+  left: 650px;
+  display: flex;
+  gap: 50px;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  text-decoration: none;
+  color: var(--text);
+  font-weight: bold;
+}
+.nav{
+  transition: .3s ease;
+}
+.nav:hover{
+  color: var(--background-alt);
+}
+.book-session{
+  background-color: var(--buttons);
+  border-radius: 20px;
+  padding: 12px;
+  transition: .3s ease;
+  text-align: center;
+  border: none;
+  width: 150%;
+  margin-top: -35px;
+  color: var(--text);
+  font-weight: bold;
+  font-size: 16px;
+}
+.book-session:hover{
+  cursor: pointer;
+  background-color: var(--background);
+}
+/* ====== Media queries ======*/
+/* ====== Large screen ======*/
+@media (max-width: 560px) {
+  
+}
