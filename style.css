@@ -44,7 +44,7 @@ header .logo img{
   transition: .3s ease;
 }
 .nav:hover{
-  color: var(--background-alt);
+  color: var(--background);
 }
 .book-session{
   background-color: var(--buttons);
@@ -62,6 +62,12 @@ header .logo img{
 .book-session:hover{
   cursor: pointer;
   background-color: var(--background);
+}
+.hero-text h1{
+  color: var(--text);
+}
+.hero-text p{
+  color: var(--text);
 }
 /* ====== Media queries ======*/
 /* ====== Large screen ======*/
