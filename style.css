@@ -1,53 +1,66 @@
-*{
+* {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
-:root{
-  --background:#128C7E;
-  --background-alt:#005191;
-  --buttons:#ff6900;
-  --hover:#007991;
+
+:root {
+  --background: #128C7E;
+  --background-alt: #005191;
+  --buttons: #ff6900;
+  --hover: #007991;
   --text: white;
+  --default: black;
+  --body: rgb(255,245,203) 0%;
 }
+
 /* ====== Header styling ======*/
-header{
+header {
   background: linear-gradient(var(--background), var(--background-alt)), url('hero-img.jpg');
   height: 100vh;
   width: 100%;
   border-radius: 0 0 150px 0;
 }
-header .logo img{
+
+header .logo img {
   height: 70px;
 }
-.header-content{
+
+.header-content {
   padding: 10px 60px;
 }
-.nav-links{
+
+.nav-links {
   display: flex !important;
 }
-.nav-links ul{
+
+.nav-links ul {
   position: absolute;
   top: 60px;
   left: 650px;
   display: flex;
   gap: 50px;
 }
-.nav-links li{
+
+.nav-links li {
   list-style: none;
 }
-.nav-links a{
+
+.nav-links a {
   text-decoration: none;
   color: var(--text);
   font-weight: bold;
 }
-.nav{
+
+.nav {
   transition: .3s ease;
 }
-.nav:hover{
-  color: var(--background);
+
+.nav:hover {
+  color: var(--buttons);
 }
-.book-session{
+
+.book-session {
   background-color: var(--buttons);
   border-radius: 20px;
   padding: 12px;
@@ -60,27 +73,33 @@ header .logo img{
   font-weight: bold;
   font-size: 16px;
 }
-.book-session:hover{
+
+.book-session:hover {
   cursor: pointer;
-  background-color: var(--background);
+  background-color: var(--hover);
 }
-.hero-text{
+
+.hero-text {
   margin: 40px 60px;
   width: 50%;
 }
-.hero-text h1{
+
+.hero-text h1 {
   color: var(--text);
   font-size: 90px;
 }
-.hero-text p{
+
+.hero-text p {
   color: var(--text);
   font-size: 25px;
 }
-.hero-text a{
+
+.hero-text a {
   text-decoration: none;
   color: var(--text);
 }
-.coach{
+
+.coach {
   background-color: var(--buttons);
   color: var(--background-alt);
   padding: 3px;
@@ -88,46 +107,68 @@ header .logo img{
   height: fit-content;
   border-radius: 100%;
 }
-.view{
+
+.view {
   color: var(--text);
+  transition: .2s ease-out;
+}
+.view-services{
+  transition: .2s ease-out;
+}
+.view-services:hover{
+  color: var(--buttons);
+}
+.view-services:hover .view{
+  color: var(--buttons);
 }
 
 /* ====== Features Styling ======*/
-.features{
+.features {
   display: flex;
   margin: 20px 110px;
   justify-content: space-between;
 }
-.feature-header{
+.feature{
+  padding: 60px;
+}
+
+.feature-header {
   font-weight: bold;
 }
-.first-block{
+
+.first-block {
   width: 40%;
 }
-.first-block h1{
+
+.first-block h1 {
   font-weight: bold;
   font-size: 34px;
 }
-.first-block p{
+
+.first-block p {
   line-height: 24px;
   opacity: .8;
 }
-.sub-block{
+
+.sub-block {
   display: flex;
   gap: 10px;
   vertical-align: middle;
 }
-.sub-block h5{
+
+.sub-block h5 {
   font-weight: bold;
   font-size: 23px;
   margin-bottom: 5px;
 }
-.sub-block p{
+
+.sub-block p {
   width: 88%;
   line-height: 20px;
   opacity: .8;
 }
-.sub-icon{
+
+.sub-icon {
   background-color: var(--buttons);
   color: var(--text);
   padding: 8px;
@@ -136,25 +177,72 @@ header .logo img{
 }
 
 /* ====== Services styling ======*/
-.service{
+.service {
   background: linear-gradient(var(--background), var(--background-alt));
   margin-top: 20px;
 }
-.services{
+
+.services {
   display: flex;
   color: var(--text);
+  gap: 30px;
+  position: relative;
+  padding: 90px;
 }
-.services-content{
+
+.services-content {
   width: 20%;
 }
-.service h1{
 
+.service h1 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
-.service p{
 
+.service p {
+  font-size: 20px;
+  opacity: .8;
 }
+.note{
+  background-color: var(--text);
+  position: absolute;
+  left: 900px;
+  top: 45px;
+  width: 280px;
+  height: fit-content;
+  padding: 40px;
+}
+.note h1{
+  color: var(--default);
+  width: 80%;
+}
+.note p{
+  color: var(--default);
+}
+.note a{
+  text-decoration: none;
+  color: var(--default);
+  opacity: .8;
+  transition: .2s ease;
+}
+.note a:hover{
+  color: var(--buttons);
+}
+.note a:hover i{
+  color: var(--buttons);
+  transition: .2s ease;
+}
+.note a i{
+  color: var(--default);
+}
+
+/* ====== Testimony Styling ======*/
+  .testimony{
+    background-color: var(--body);
+  }
 /* ====== Media queries ======*/
 /* ====== Large screen ======*/
 @media (max-width: 560px) {
-  
+
 }
