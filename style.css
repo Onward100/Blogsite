@@ -10,8 +10,9 @@
   --hover:#007991;
   --text: white;
 }
+/* ====== Header styling ======*/
 header{
-  background-color: black;
+  background: linear-gradient(var(--background), var(--background-alt)), url('hero-img.jpg');
   height: 100vh;
   width: 100%;
   border-radius: 0 0 150px 0;
@@ -63,11 +64,94 @@ header .logo img{
   cursor: pointer;
   background-color: var(--background);
 }
+.hero-text{
+  margin: 40px 60px;
+  width: 50%;
+}
 .hero-text h1{
   color: var(--text);
+  font-size: 90px;
 }
 .hero-text p{
   color: var(--text);
+  font-size: 25px;
+}
+.hero-text a{
+  text-decoration: none;
+  color: var(--text);
+}
+.coach{
+  background-color: var(--buttons);
+  color: var(--background-alt);
+  padding: 3px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 100%;
+}
+.view{
+  color: var(--text);
+}
+
+/* ====== Features Styling ======*/
+.features{
+  display: flex;
+  margin: 20px 110px;
+  justify-content: space-between;
+}
+.feature-header{
+  font-weight: bold;
+}
+.first-block{
+  width: 40%;
+}
+.first-block h1{
+  font-weight: bold;
+  font-size: 34px;
+}
+.first-block p{
+  line-height: 24px;
+  opacity: .8;
+}
+.sub-block{
+  display: flex;
+  gap: 10px;
+  vertical-align: middle;
+}
+.sub-block h5{
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+.sub-block p{
+  width: 88%;
+  line-height: 20px;
+  opacity: .8;
+}
+.sub-icon{
+  background-color: var(--buttons);
+  color: var(--text);
+  padding: 8px;
+  height: fit-content;
+  border-radius: 100%;
+}
+
+/* ====== Services styling ======*/
+.service{
+  background: linear-gradient(var(--background), var(--background-alt));
+  margin-top: 20px;
+}
+.services{
+  display: flex;
+  color: var(--text);
+}
+.services-content{
+  width: 20%;
+}
+.service h1{
+
+}
+.service p{
+
 }
 /* ====== Media queries ======*/
 /* ====== Large screen ======*/
