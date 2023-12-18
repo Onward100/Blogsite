@@ -11,7 +11,7 @@
   --hover: #007991;
   --text: white;
   --default: black;
-  --body: rgb(255,245,203) 0%;
+  --body: rgb(255, 245, 203) 0%;
 }
 
 /* ====== Header styling ======*/
@@ -106,19 +106,23 @@ header .logo img {
   width: fit-content;
   height: fit-content;
   border-radius: 100%;
+  transform: scale(.7);
 }
 
 .view {
   color: var(--text);
   transition: .2s ease-out;
 }
-.view-services{
+
+.view-services {
   transition: .2s ease-out;
 }
-.view-services:hover{
+
+.view-services:hover {
   color: var(--buttons);
 }
-.view-services:hover .view{
+
+.view-services:hover .view {
   color: var(--buttons);
 }
 
@@ -128,7 +132,8 @@ header .logo img {
   margin: 20px 110px;
   justify-content: space-between;
 }
-.feature{
+
+.feature {
   padding: 60px;
 }
 
@@ -204,7 +209,8 @@ header .logo img {
   font-size: 20px;
   opacity: .8;
 }
-.note{
+
+.note {
   background-color: var(--text);
   position: absolute;
   left: 900px;
@@ -213,36 +219,93 @@ header .logo img {
   height: fit-content;
   padding: 40px;
 }
-.note h1{
+
+.note h1 {
   color: var(--default);
   width: 80%;
 }
-.note p{
+
+.note p {
   color: var(--default);
 }
-.note a{
+
+.note a {
   text-decoration: none;
   color: var(--default);
   opacity: .8;
   transition: .2s ease;
 }
-.note a:hover{
+
+.note a:hover {
   color: var(--buttons);
 }
-.note a:hover i{
+
+.note a:hover i {
   color: var(--buttons);
   transition: .2s ease;
 }
-.note a i{
+
+.note a i {
   color: var(--default);
 }
 
 /* ====== Testimony Styling ======*/
-  .testimony{
-    background-color: var(--body);
-  }
+.testimony-content {
+  padding: 90px;
+}
+
+.testimonials {
+  display: flex;
+  gap: 40px;
+}
+
+.first-textimonial {
+  background-color: var(--text);
+  box-shadow: 0 0 2px 2px var(--buttons);
+  border-radius: 10px;
+  padding: 40px;
+  width: 40%;
+}
+
+.second-textimonial {
+  background-color: var(--text);
+  box-shadow: 0 0 2px 2px var(--buttons);
+  border-radius: 10px;
+  padding: 25px;
+  width: 40%;
+}
+.testimonials-text2{
+  width: 70%;
+}
+
+.trusted {
+  font-size: 36px;
+  font-weight: bold;
+  width: 30%;
+}
+
+.icons {
+  display: flex;
+  justify-content: right;
+}
+
+.testimonials-icon {
+  color: var(--buttons);
+}
+
+
+
+/* ====== Contact Styling ======*/
+.contact-content{
+  background: linear-gradient(var(--text), var(--default));
+}
+.line{
+  background-color: var(--buttons);
+  height: 5px;
+  width: 100px;
+  margin: auto;
+}
+
 /* ====== Media queries ======*/
 /* ====== Large screen ======*/
-@media (max-width: 560px) {
-
-}
+@media (max-width: 560px) {}
