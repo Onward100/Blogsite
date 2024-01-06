@@ -5,281 +5,324 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!------====== Favicon ======------>
-  <link rel="icon" href="blog-logo.svg" type="image/x-icon">
+  <link rel="icon" href="excellent-ceo.jpg" type="image/x-icon">
   <!------====== Custom Css link ======------>
   <link rel="stylesheet" href="style.css">
   <title>Blog site</title>
+  <!------====== Email js Script ======------>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("user_qxmxUsw-53qD2MAvg");
+    })();
+  </script>
 </head>
-<header id="home">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="hero-img"></div>
-    <div class="header-content">
-      <div class="logo"><img src="blog-logo.svg" alt="logo"></div>
-      <div class="hamburger">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-      <nav class="nav-links">
-        <ul>
-          <li><a href="#home" class="nav">Home</a></li>
-          <li><a href="#about-us" class="nav">About Us</a></li>
-          <li><a href="#services" class="nav">Services</a></li>
-          <li><a href="#contact" class="nav">Contact</a></li>
-          <li><button class="book-session">Book Session</button></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="hero-text">
-      <a href="#services"><i class="fa-solid fa-play coach"></i> COACHING, CONSULATING, AND INFOMATION PROVISION</a>
-      <br><br>
-      <h1>Eduction Opens up the Mind</h1>
-      <br><br>
-      <p>Excellent-Ed is a premier educational coaching service dedicated to helping students achieve academic success.
-        Empowering your academic journey with excellence in education.</p>
-      <br><br>
-      <a href="#" class="view-services"><i class="fa-solid fa-play view"> </i> VIEW ALL SERVICES</a>
-    </div>
-  </div>
-</header>
-<br><br>
-<section class="feature">
-  <div class="features">
-    <div class="first-block">
-      <p class="feature-header">Features of Our Courses</p>
-      <br><br>
-      <h1>Why Choose Us?</h1>
-      <br><br>
-      <p>We offer tailored solutions that are designed to meet your unique needs and goals, ensuring that you receive
-        the support you need to succeed. With our commitment to excellence and personalized approach, you can trust
-        Excellent-Ed to help you achieve your academic goals and unlock your full potential.</p>
-    </div>
-    <br>
-    <div class="second-block">
-      <div class="sub-block">
-        <i class="fa-solid fa-crown sub-icon"></i>
-        <div class="text">
-          <h5>Personalized Support</h5>
-          <p>Customized study plans and feedback to help you achieve your full potential</p>
-        </div>
-      </div>
-      <br>
-      <div class="sub-block">
-        <i class="fa-solid fa-clock sub-icon"></i>
-        <div class="text">
-          <h5>Expert Guidance</h5>
-          <p>Strategic insights and practical solutions to help you make informed decisions</p>
-        </div>
-      </div>
-      <br>
-      <div class="sub-block">
-        <i class="fa-solid fa-book sub-icon"></i>
-        <div class="text">
-          <h5>Focus on Excellence</h5>
-          <p>A commitment to excellence in education and academic success</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="service">
-  <div class="overlay1"></div>
-  <div class="service-container">
-    <div class="services">
-      <div class="services-content">
-        <div class="lines"></div>
-        <div class="services-text">
-          <h1>Coaching</h1>
-          <br>
-          <p>Our coaching service offers personalized support and guidance to help you achieve your academic goals.
-          </p>
-        </div>
-      </div>
-      <div class="services-content">
-        <div class="lines"></div>
-        <div class="services-text">
-          <h1>Consulting</h1>
-          <br>
-          <p>Our consulting service provides expert guidance to help you make informed decisions and achieve your goals.
-          </p>
-        </div>
-      </div>
-      <div class="services-content">
-        <div class="lines"></div>
-        <div class="services-text">
-          <h1>Information Provision</h1>
-          <p>From market research to industry insights, we provide the information you need to stay ahead of the curve.
-          </p>
-        </div>
-      </div>
-      <div class="note">
-        <p>Learning Excellence</p>
-        <br>
-        <h1>Find out which services
-          are best fit for your
-          needs.</h1>
-        <br>
-        <a href="#"><i class="fa-solid fa-play view"> </i> BOOK SESSION</a>
-      </div>
-    </div>
-  </div>
-</section>
-<br><br>
-<section class="testimony">
-  <div class="testimony-content">
-    <h5>Testimonials</h5>
-    <br>
-    <h1 class="trusted">Trusted by Thousand of Students and Tutors</h1>
-    <br><br>
-    <div class="testimonials">
-      <div class="first-textimonial">
-        <img src="excellent-ceo.jpg" alt="" class="testimonials-img">
-        <p class="testimonials-text">“Excellent-Ed helped me achieve my academic goals and unlock my full potential.
-          Their personalized approach and tailored solutions made all the difference in my success. I highly recommend
-          their coaching and consulting services to anyone looking to achieve academic success.”</p>
-        <br>
-        <h4>Woruka Evidence</h4>
-        <div class="icons">
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-        </div>
-      </div>
-      <div class="second-textimonial">
-        <img src="excellent-ceo.jpg" alt="" class="testimonials-img">
-        <p class="testimonials-text">“I was struggling with a challenging subject and Edeama helped me improve my
-          understanding and develop effective study habits. Their coaching sessions were invaluable and gave me the
-          confidence to excel in my coursework. I couldn't have done it without them.”</p>
-        <br>
-        <h4>Woruka Praise</h4>
-        <div class="icons">
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-        </div>
-      </div>
-    </div>
-    <br><br><br>
-    <div class="testimonials">
-      <div class="first-textimonial">
-        <img src="excellent-ceo.jpg" alt="" class="testimonials-img">
-        <p class="testimonials-text">“Edeama's consulting service helped me make informed decisions and achieve my
-          goals. Their team of experienced consultants provided strategic insights and practical solutions that were
-          essential to my success. I highly recommend their services to anyone looking to gain a competitive edge."</p>
-        <br>
-        <h4>Woruka Chinedu</h4>
-        <div class="icons">
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-        </div>
-      </div>
-      <div class="second-textimonial">
-        <img src="excellent-ceo.jpg" alt="" class="testimonials-img">
-        <p class="testimonials-text2">“Edeama's service provided me with the market research and industry insights I
-          needed to stay ahead of the curve. Their team of experts synthesized data from a wide range of sources and
-          delivered the information I needed in a timely and efficient manner. I highly recommend their service to
-          anyone looking to gain a competitive advantage.”</p>
-        <br>
-        <h4>Woruka Jenifer</h4>
-        <div class="icons">
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-          <i class="fa-solid fa-star testimonials-icon"></i>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<br>
-<section class="contact">
-  <div class="contact-content">
-    <div class="line"></div>
-    <br>
-    <div class="join-us-text">
-      <h1 class="join-us">Join Our Newsletter and Get Exclusive Offers!</h1>
-      <br>
-      <p>Sign up today to receive the latest updates, educational resources, and exclusive offers straight to your
-        inbox. Don’t miss out on the opportunity to be part of our vibrant community. Subscribe now and let the
-        knowledge come to you.</p>
-      <br>
-    </div>
-    <form>
-      <input type="email" class="email" placeholder="Enter your email...">
-      <br><br>
-      <a href="#"><button>Subscribe</button></a>
-    </form>
-  </div>
-</section>
-
-<footer>
-  <div class="footer-section">
-    <img src="blog_logo_footer.png">
-    <br><br><br>
-    <p class="footer-text">Excellent-Ed is a premier educational coaching service dedicated to helping students achieve
-      academic success. Empowering your academic journey with excellence in education.</p>
-    <br>
-    <div class="footer-contact">
-      <h3>Contact Info</h3>
-      <br>
-      <form>
-        <span><b>Phone:</b> +44 4455 564 5543</span>
-        <br><br>
-        <span><b>Email:</b> info@gmail.edu</span>
-      </form>
-    </div>
-    <br><br>
-    <div class="socials">
-      <a href="#"><i class="fa-brands fa-facebook"></i></a>
-      <a href="#"><i class="fa-brands fa-youtube"></i></a>
-      <a href="#"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-    <br>
-    <div class="links-contact">
-      <div class="quick-link">
-        <h3>Quick Links</h3>
-        <br>
-        <ul class="quick-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Book Session</a></li>
-        </ul>
-      </div>
-      <form class="contact-session">
-        <label for="name">Name:</label>
-        <br>
-        <input type="text" class="name" placeholder="Enter name..." required>
-        <br><br>
-        <label for="name">Email address:</label>
-        <br>
-        <input type="email" class="email" placeholder="Enter email..." required>
-        <br><br>
-        <label for="message">Message</label>
-        <br>
-        <textarea name="" id="" cols="30" rows="10" class="message" placeholder="Write Message..." required></textarea>
-        <br><br>
-        <button>Send Message</button>
-      </form>
-    </div>
-  </div>
-  <hr><br>
-  <div class="copywrite">
-    <p>Copyright © 2023 Excellent-Ed, LLC</p>
-    <p>Powered by Excellent-Ed, LLC</p>
-  </div>
-</footer>
 
 <body>
+  <!------====== HEADER ======------>
+  <header id="home">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="hero-img"></div>
+      <div class="header-content">
+        <div class="logo"><img src="blog-logo.svg" alt="logo"></div>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars openMenu" onclick="showNavLinks()"></i>
+        </div>
+        <nav class="nav-links">
+          <ul class="navs">
+            <li><a href="#home" class="nav">Home</a></li>
+            <li><a href="#about-us" class="nav">About Us</a></li>
+            <li><a href="#services" class="nav">Services</a></li>
+            <li><a href="#contact" class="nav">Contact</a></li>
+            <li><button class="book-session" onclick="popOut()">Book Session</button></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero-text">
+        <a href="#services"><i class="fa-solid fa-play coach"></i> COACHING, CONSULATING, AND INFOMATION PROVISION</a>
+        <br><br>
+        <h1>Eduction Opens up the Mind</h1>
+        <br><br>
+        <p>Excellent-Ed is a premier educational coaching service dedicated to helping students achieve academic
+          success.
+          Empowering your academic journey with excellence in education.</p>
+        <br><br>
+        <a href="#services" class="view-services"><i class="fa-solid fa-play view"> </i> VIEW ALL SERVICES</a>
+      </div>
+    </div>
+  </header>
+    <!------====== book-session-overlay ======------>
+  <div class="book-session-overlay">
+    <i class="fa-solid fa-close close" onclick="removePopOut()"></i>
+    <br><br>
+    <form class="contact-session">
+      <label for="name">Name:</label>
+      <br>
+      <input type="text" class="name input" id="fullName" placeholder="Enter name..." required>
+      <br><br>
+      <label for="name">Email address:</label>
+      <br>
+      <input type="email" class="email input" id="email_id" placeholder="Enter email..." required>
+      <br><br>
+      <label for="message">Message</label>
+      <br>
+      <textarea name="" id="" cols="30" rows="10" class="message textarea" id="message" placeholder="Write Message..."
+        required></textarea>
+      <br><br>
+      <button onclick="sendMessage()">Send Message</button>
+    </form>
+  </div>
+  <div class="overlay-black"></div>
+  <br><br>
+   <!------====== FEATURE ======------>
+  <section class="feature" id="about-us">
+    <div class="features">
+      <div class="first-block">
+        <p class="feature-header">Features of Our Courses</p>
+        <br><br>
+        <h1>Why Choose Us?</h1>
+        <br><br>
+        <p>We offer tailored solutions that are designed to meet your unique needs and goals, ensuring that you receive
+          the support you need to succeed. With our commitment to excellence and personalized approach, you can trust
+          Excellent-Ed to help you achieve your academic goals and unlock your full potential.</p>
+      </div>
+      <br>
+      <div class="second-block">
+        <div class="sub-block">
+          <i class="fa-solid fa-crown sub-icon"></i>
+          <div class="text">
+            <h5>Personalized Support</h5>
+            <p>Customized study plans and feedback to help you achieve your full potential</p>
+          </div>
+        </div>
+        <br>
+        <div class="sub-block">
+          <i class="fa-solid fa-clock sub-icon"></i>
+          <div class="text">
+            <h5>Expert Guidance</h5>
+            <p>Strategic insights and practical solutions to help you make informed decisions</p>
+          </div>
+        </div>
+        <br>
+        <div class="sub-block">
+          <i class="fa-solid fa-book sub-icon"></i>
+          <div class="text">
+            <h5>Focus on Excellence</h5>
+            <p>A commitment to excellence in education and academic success</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!------====== SERVICES ======------>
+  <section class="service" id="services">
+    <div class="overlay1"></div>
+    <div class="service-container">
+      <div class="services">
+        <div class="services-content">
+          <div class="lines"></div>
+          <div class="services-text">
+            <h1>Coaching</h1>
+            <br>
+            <p>Our coaching service offers personalized support and guidance to help you achieve your academic goals.
+            </p>
+          </div>
+        </div>
+        <div class="services-content">
+          <div class="lines"></div>
+          <div class="services-text">
+            <h1>Consulting</h1>
+            <br>
+            <p>Our consulting service provides expert guidance to help you make informed decisions and achieve your
+              goals.
+            </p>
+          </div>
+        </div>
+        <div class="services-content">
+          <div class="lines"></div>
+          <div class="services-text">
+            <h1>Information Provision</h1>
+            <p>From market research to industry insights, we provide the information you need to stay ahead of the
+              curve.
+            </p>
+          </div>
+        </div>
+        <div class="note">
+          <p>Learning Excellence</p>
+          <br>
+          <h1>Find out which services
+            are best fit for your
+            needs.</h1>
+          <br>
+          <a href="#"><i class="fa-solid fa-play view"> </i> BOOK SESSION</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br>
+   <!------====== TESTIMONIAL ======------>
+  <section class="testimony">
+    <div class="testimony-content">
+      <h5>Testimonials</h5>
+      <br>
+      <h1 class="trusted">Trusted by Thousand of Students and Tutors</h1>
+      <br><br>
+      <div class="testimonials">
+        <div class="first-textimonial">
+          <img src="excellent-ceo.jpg" alt="" class="testimonials-img">
+          <p class="testimonials-text">“Excellent-Ed helped me achieve my academic goals and unlock my full potential.
+            Their personalized approach and tailored solutions made all the difference in my success. I highly recommend
+            their coaching and consulting services to anyone looking to achieve academic success.”</p>
+          <br>
+          <h4>Woruka Evidence</h4>
+          <div class="icons">
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+          </div>
+        </div>
+        <div class="second-textimonial">
+          <img src="excellent-ceo.jpg" alt="" class="testimonials-img">
+          <p class="testimonials-text">“I was struggling with a challenging subject and Edeama helped me improve my
+            understanding and develop effective study habits. Their coaching sessions were invaluable and gave me the
+            confidence to excel in my coursework. I couldn't have done it without them.”</p>
+          <br>
+          <h4>Woruka Praise</h4>
+          <div class="icons">
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="testimonials">
+        <div class="first-textimonial">
+          <img src="excellent-ceo.jpg" alt="" class="testimonials-img">
+          <p class="testimonials-text">“Edeama's consulting service helped me make informed decisions and achieve my
+            goals. Their team of experienced consultants provided strategic insights and practical solutions that were
+            essential to my success. I highly recommend their services to anyone looking to gain a competitive edge."
+          </p>
+          <br>
+          <h4>Woruka Chinedu</h4>
+          <div class="icons">
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+          </div>
+        </div>
+        <div class="second-textimonial">
+          <img src="excellent-ceo.jpg" alt="" class="testimonials-img">
+          <p class="testimonials-text2">“Edeama's service provided me with the market research and industry insights I
+            needed to stay ahead of the curve. Their team of experts synthesized data from a wide range of sources and
+            delivered the information I needed in a timely and efficient manner. I highly recommend their service to
+            anyone looking to gain a competitive advantage.”</p>
+          <br>
+          <h4>Woruka Jenifer</h4>
+          <div class="icons">
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+            <i class="fa-solid fa-star testimonials-icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+   <!------====== CONTACT ======------>
+  <section class="contact">
+    <div class="contact-content">
+      <div class="line"></div>
+      <br>
+      <div class="join-us-text">
+        <h1 class="join-us">Join Our Newsletter and Get Exclusive Offers!</h1>
+        <br>
+        <p>Sign up today to receive the latest updates, educational resources, and exclusive offers straight to your
+          inbox. Don’t miss out on the opportunity to be part of our vibrant community. Subscribe now and let the
+          knowledge come to you.</p>
+        <br>
+      </div>
+      <form>
+        <input type="email" class="email" placeholder="Enter your email...">
+        <br><br>
+        <a href="#"><button>Subscribe</button></a>
+      </form>
+    </div>
+  </section>
+ <!------====== FOOTER ======------>
+  <footer>
+    <div class="footer-section" id="contact">
+      <img src="blog_logo_footer.png">
+      <br><br><br>
+      <p class="footer-text">Excellent-Ed is a premier educational coaching service dedicated to helping students
+        achieve
+        academic success. Empowering your academic journey with excellence in education.</p>
+      <br>
+      <div class="footer-contact">
+        <h3>Contact Info</h3>
+        <br>
+        <form>
+          <span><b>Phone:</b> +44 4455 564 5543</span>
+          <br><br>
+          <span><b>Email:</b> info@gmail.edu</span>
+        </form>
+      </div>
+      <br><br>
+      <div class="socials">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <br>
+      <div class="links-contact">
+        <div class="quick-link">
+          <h3>Quick Links</h3>
+          <br>
+          <ul class="quick-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#" id="services">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" onclick="popOut()">Book Session</a></li>
+          </ul>
+        </div>
+        <form class="contact-session">
+          <label for="name">Name:</label>
+          <br>
+          <input type="text" class="name" id="fullName" placeholder="Enter name..." required>
+          <br><br>
+          <label for="name">Email address:</label>
+          <br>
+          <input type="email" class="email" id="email_id" placeholder="Enter email..." required>
+          <br><br>
+          <label for="message">Message</label>
+          <br>
+          <textarea name="" id="" cols="30" rows="10" class="message" id="message" placeholder="Write Message..."
+            required></textarea>
+          <br><br>
+          <button onclick="sendMessage()">Send Message</button>
+        </form>
+      </div>
+    </div>
+    <hr><br>
+    <div class="copywrite">
+      <p>Copyright © 2023 Excellent-Ed, LLC</p>
+      <p>Powered by Excellent-Ed, LLC</p>
+    </div>
+  </footer>
+
+
   <!------====== Custom Js ======------>
   <script src="main.js"></script>
   <!------======= Font Awesome ======------>
