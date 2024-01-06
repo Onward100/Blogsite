@@ -82,7 +82,10 @@ header {
   display: flex;
   position: relative;
 }
-
+.top-header{
+  display: flex;
+  justify-content: space-between;
+}
 .hamburger {
   display: none;
 }
@@ -557,7 +560,7 @@ textarea {
 /* ====== Media queries ======*/
 
 /* ====== Small screen ======*/
-@media (max-width: 1000px) {
+@media (min-width: 375px) {
   .hamburger {
     display: block;
     background-color: var(--button-alt);
@@ -610,7 +613,7 @@ textarea {
   }
 
   .nav-links ul {
-    width: 89%;
+    width: 100%;
     height: 50%;
     top: 88px;
     left: 0;
@@ -800,8 +803,61 @@ textarea {
     width: 100%;
   }
 }
+@media (min-width: 414px) {
+  .hamburger{
+    left: 350px;
+  }
+}
+/* ====== Medium screen ======*/
+@media (min-width: 768px) {
+  .hamburger {
+    left: 700px;
+  }
+  .overlay{
+    height: 75vh;
+  }
+  .container{
+    height: 75vh;
+  }
+  .hero-text{
+    margin: 10% auto;
+  }
+  .hero-text h1{
+    font-size: 80px;
+  }
+  .services {
+    display: flex;
+    height: 50vh;
+  }
+  .note{
+    position: absolute;
+    width: 30%;
+    top: 307px;
+    left: 20px;
+  }
+  .testimonials {
+    display: flex;
+  }
+  .second-textimonial {
+    margin-top: 0;
+  }
+  .footer-section {
+    text-align: center;
+  }
+  .links-contact button {
+    width: 98% !important;
+  }
+  .copywrite {
+    display: flex;
+    padding: 5px;
+    width: 98%;
+  }
+  .socials{
+    margin: auto 42%;
+  }
+}
 
-@media (max-width: 375px) {
+/* @media (max-width: 375px) {
   .hamburger {
     left: 310px !important;
   }
@@ -847,50 +903,5 @@ textarea {
   .container {
     height: 65vh;
   }
-}
-
-/* ====== Medium screen ======*/
-/* @media (min-width: 768px) {
-  .hamburger {
-    left: 700px;
-  }
-  .overlay{
-    height: 75vh;
-  }
-  .container{
-    height: 75vh;
-  }
-  .hero-text{
-    margin: 10% auto;
-  }
-  .hero-text h1{
-    font-size: 80px;
-  }
-  .services {
-    display: flex;
-    height: 50vh;
-  }
-  .note{
-    position: absolute;
-    width: 30%;
-    top: 307px;
-    left: 20px;
-  }
-  .testimonials {
-    display: flex;
-  }
-  .second-textimonial {
-    margin-top: 0;
-  }
-  .footer-section {
-    text-align: center;
-  }
-  .links-contact button {
-    width: 98% !important;
-  }
-  .copywrite {
-    display: flex;
-    padding: 5px;
-    width: 98%;
-  }
 } */
+
