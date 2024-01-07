@@ -74,7 +74,6 @@
   position: absolute;
   top: 0;
   opacity: .6;
-  border-radius: 0 0 200px 0;
   display: none;
 }
 
@@ -87,6 +86,9 @@ header {
   justify-content: space-between;
 }
 .hamburger {
+  display: none;
+}
+.fa-xmark{
   display: none;
 }
 
@@ -574,7 +576,7 @@ textarea {
 
   .book-session-overlay {
     position: absolute;
-    left: 10%;
+    left: 15%;
     top: 12%;
     width: 70%;
   }
@@ -589,11 +591,13 @@ textarea {
     width: 102% !important;
   }
 
-  /* .fa-xmark {
-    margin-left: -20px;
-    position: absolute;
-    display: none !important;
-  } */
+  .fa-xmark {
+    margin-left: 295px;
+    margin-top: 20px;
+    display: block;
+    color: var(--text);
+    font-size: 25px;
+  }
 
   /* ====== Header ======*/
   .overlay {
@@ -813,6 +817,9 @@ textarea {
   .hamburger {
     left: 700px;
   }
+  .fa-xmark {
+    margin-left: 685px;
+  }
   .overlay{
     height: 75vh;
   }
@@ -854,6 +861,15 @@ textarea {
   }
   .socials{
     margin: auto 42%;
+  }
+}
+@media (min-width: 820px){
+  .hamburger{
+    left: 750px;
+  }
+  .note{
+    position: absolute;
+    top: 340px;
   }
 }
 

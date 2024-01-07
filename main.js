@@ -1,13 +1,13 @@
 /* ============= Hamburger menu  ================= */
 const navLink = document.querySelector(".navs");
 const openMenu = document.querySelector(".openMenu");
-// const closeMenu = document.querySelector(".closeMenu");
+const closeMenu = document.querySelector(".closeMenu");
 
 function showNavLinks() {
   navLink.style.marginTop = "0px";
 }
 function closeNavLinks() {
-
+  navLink.style.marginTop = "-700px";
 }
 /* ================ Email =================== */
 function sendMessage() {
@@ -40,6 +40,7 @@ function popOut(e) {
   document.body.style.overflow = "hidden";
   overlayBlack.style.display = "block";
   popUp.style.zIndex = "1";
+  navLink.style.marginTop = "-700px";
 
   e.preventDefault();
 }
