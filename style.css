@@ -318,7 +318,7 @@ header .logo img {
   background-color: var(--text);
   position: absolute;
   left: 900px;
-  top: 79px;
+  top: 98px !important;
   width: 280px;
   height: fit-content;
   padding: 40px;
@@ -562,7 +562,7 @@ textarea {
 /* ====== Media queries ======*/
 
 /* ====== Small screen ======*/
-@media (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 1000px){
   .hamburger {
     display: block;
     background-color: var(--button-alt);
@@ -712,7 +712,7 @@ textarea {
   .note {
     position: relative;
     left: 10px;
-    top: 20px;
+    top: 20px !important;
     width: 70%;
     height: fit-content;
   }
@@ -813,7 +813,7 @@ textarea {
   }
 }
 /* ====== Medium screen ======*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1140px) {
   .hamburger {
     left: 700px;
   }
@@ -839,7 +839,7 @@ textarea {
   .note{
     position: absolute;
     width: 30%;
-    top: 307px;
+    top: 285px !important;
     left: 20px;
   }
   .testimonials {
@@ -863,13 +863,13 @@ textarea {
     margin: auto 42%;
   }
 }
-@media (min-width: 820px){
+@media screen and (min-width: 820px) and (max-width: 1200px){
   .hamburger{
     left: 750px;
   }
   .note{
     position: absolute;
-    top: 340px;
+    top: 350px !important;
   }
 }
 
