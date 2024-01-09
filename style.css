@@ -89,7 +89,7 @@ header {
   display: none;
 }
 .fa-xmark{
-  display: none;
+  display: none !important;
 }
 
 .overlay {
@@ -594,7 +594,7 @@ textarea {
   .fa-xmark {
     margin-left: 295px;
     margin-top: 20px;
-    display: block;
+    display: block !important;
     color: var(--text);
     font-size: 25px;
   }
@@ -617,7 +617,7 @@ textarea {
   }
 
   .nav-links ul {
-    width: 100%;
+    width: 90%;
     height: 50%;
     top: 88px;
     left: 0;
@@ -811,6 +811,9 @@ textarea {
   .hamburger{
     left: 350px;
   }
+  .fa-xmark {
+    margin-left: 340px;
+  }
 }
 /* ====== Medium screen ======*/
 @media screen and (min-width: 768px) and (max-width: 1140px) {
@@ -826,6 +829,9 @@ textarea {
   .container{
     height: 75vh;
   }
+  .nav-links ul {
+    width: 94.4%;
+  }
   .hero-text{
     margin: 10% auto;
   }
@@ -839,7 +845,7 @@ textarea {
   .note{
     position: absolute;
     width: 30%;
-    top: 285px !important;
+    top: 307px !important;
     left: 20px;
   }
   .testimonials {
@@ -869,55 +875,11 @@ textarea {
   }
   .note{
     position: absolute;
-    top: 350px !important;
+    top: 390px !important;
+  }
+  .fa-xmark{
+    margin-left: 730px;
   }
 }
 
-/* @media (max-width: 375px) {
-  .hamburger {
-    left: 310px !important;
-  }
-
-  .overlay {
-    height: 85vh !important;
-  }
-
-  .container {
-    height: 85vh !important;
-  }
-}
-
-@media (max-width: 390px) {
-  .hamburger {
-    left: 320px !important;
-  }
-}
-
-@media (max-width: 414px) {
-  .hamburger {
-    left: 340px;
-  }
-
-  .overlay {
-    height: 65vh;
-  }
-
-  .container {
-    height: 65vh;
-  }
-}
-
-@media (max-width: 430px) {
-  .hamburger {
-    left: 360px;
-  }
-
-  .overlay {
-    height: 65vh;
-  }
-
-  .container {
-    height: 65vh;
-  }
-} */
 
